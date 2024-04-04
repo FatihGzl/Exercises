@@ -1,0 +1,6 @@
+"0","# Excel dosyasındaki ham verileri data.frame formatında R'a ithal edin"
+"0","# havaK <- <kodu tamamla>"
+"0","library(readxl)"
+"0","havaK <- read_excel(""C:/Users/fal-g/Downloads/Veri Detaylari27.03.2024 22_44_05.xlsx"")"
+"2","New names:"
+"0","head(havaK, 10)"

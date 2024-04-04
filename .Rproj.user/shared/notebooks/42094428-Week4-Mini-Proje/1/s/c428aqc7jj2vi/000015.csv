@@ -1,0 +1,35 @@
+"0","install.packages(""dygraphs"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","Installing package into ‘C:/Users/fal-g/AppData/Local/R/win-library/4.3’
+(as ‘lib’ is unspecified)
+"
+"2","URL 'https://cran.rstudio.com/bin/windows/contrib/4.3/dygraphs_1.1.1.6.zip' deneniyor
+"
+"2","Content type 'application/zip'"
+"2"," length 443143 bytes (432 KB)
+"
+"2","downloaded 432 KB
+
+"
+"1","package ‘dygraphs’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\fal-g\AppData\Local\Temp\RtmpY7qCMQ\downloaded_packages"
+"1",""
+"1","
+"
+"0","library(dygraphs)"
+"0","data_subset <- havaK[, c(""Time"", ""SO2"", ""CO"")]"
+"1","[1m[33mError[39m in `havaK[, c(""Time"", ""SO2"", ""CO"")]`:[22m
+[33m![39m Can't subset columns that don't exist.
+[31m✖[39m Columns `Time`, `SO2`, and `CO` don't exist.
+Backtrace:
+[90m 1. [39mhavaK[, c(""Time"", ""SO2"", ""CO"")]
+[90m 2. [39m[1m[94mtibble:::`[.tbl_df`([39m[22mhavaK, , c(""Time"", ""SO2"", ""CO"")[1m[94m)[39m[22m
+"

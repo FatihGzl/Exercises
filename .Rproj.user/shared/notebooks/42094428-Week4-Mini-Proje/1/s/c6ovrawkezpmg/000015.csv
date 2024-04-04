@@ -1,0 +1,2 @@
+"0","havaK[, -which(names(havaK) == ""Time"")] <- sapply(havaK[, -which(names(havaK) == ""Time"")], as.numeric)"
+"0","head(havaK, 10)"
